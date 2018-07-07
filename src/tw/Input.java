@@ -5,11 +5,11 @@ import java.util.ArrayList;
  * Created by arshisa on 7/6/18.
  */
 public class Input {
-    String subscriptionType;
-    ArrayList<Date> dateList;
+    String customerType;
+    ArrayList<DaysOfWeek> daysOfWeeks;
 
-    public Input(String subscriptionType, ArrayList<Date> dateList) {
-        this.subscriptionType = subscriptionType;
-        this.dateList = dateList;
+    public Input(String customerType, ArrayList<DaysOfWeek> daysOfWeeks) {
+        this.customerType = customerType;
+        this.daysOfWeeks = daysOfWeeks;
     }
 }

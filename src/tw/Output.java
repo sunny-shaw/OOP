@@ -9,9 +9,6 @@ public class Output {
     int totalAmount;
     double rating;
 
-    public Output() {
-    }
-
     public Output(String name, double rating, int totalAmount) {
         this.name = name;
         this.totalAmount = totalAmount;
